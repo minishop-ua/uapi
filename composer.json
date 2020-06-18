@@ -1,0 +1,20 @@
+{
+  "name": "minishop/uapi",
+  "description": "Adm.Tools API Integration Library",
+  "license": "mit",
+  "authors": [],
+  "require" : {
+    "nategood/httpful": "*",
+    "jms/serializer": "*",
+    "doctrine/common": "*",
+    "psr/http-message": "*"
+  },
+  "include-path": [
+    "src/"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Minishop\\UApi\\": "src/"
+    }
+  }
+}
